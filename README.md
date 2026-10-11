@@ -11,6 +11,12 @@ recover it. `leakscan` (also in this workspace) scans a git diff; this
 scans the other place a secret can permanently leak into a shipped
 artifact — the image itself.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
